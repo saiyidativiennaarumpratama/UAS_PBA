@@ -14,9 +14,9 @@ st.write("""
 st.write("### Natural Language Processing Project for Final Exam")
 
 # load model
-model = joblib.load('model/modelSVM.pkl')
+model = joblib.load('model/modelSVM_oversampling.pkl')
 # load vectorize
-vectorizer = joblib.load('model/vectorizer.pkl')
+vectorizer = joblib.load('model/tfidf_dataoversampling.pkl')
 
 # inputan
 ulasan = st.text_input('Masukkan ulasan')
